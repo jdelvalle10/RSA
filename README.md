@@ -1,2 +1,70 @@
 # RSA
 Simple implementation of the RSA Asymmetric Encryption Algorithm
+
+## RSA Encryption Implementation
+This repository contains an implementation of the RSA encryption algorithm in [language]. RSA (Rivest–Shamir–Adleman) is 
+one of the first public-key cryptosystems and is widely used for secure data transmission.
+
+## Features
+Key Generation: Generate public and private keys.
+Encryption: Encrypt plaintext messages using the public key.
+Decryption: Decrypt ciphertext messages using the private key.
+
+## Installation
+Clone the repository:
+bash
+Copy code
+git clone https://github.com/your_username/your_repository.git
+
+## Libraries Used
+
+The `generate_keys.py` script relies on the following libraries:
+
+- **Python Cryptography**: This library provides cryptographic recipes and primitives to Python developers. It is used for generating secure random numbers and implementing various cryptographic algorithms.
+
+    - **Installation**: You can install Python Cryptography using pip:
+
+        ```bash
+        pip install cryptography
+        ```
+
+    - **Documentation**: [Python Cryptography Documentation](https://cryptography.io/en/latest/)
+
+- **Math**: This is a standard Python library used for mathematical operations. It is used in the RSA key generation process for computing modular arithmetic operations such as finding modular inverses and performing modular exponentiation.
+
+    - **Installation**: The `math` library comes pre-installed with Python and does not require separate installation.
+
+    - **Documentation**: [Python Math Library Documentation](https://docs.python.org/3/library/math.html)
+
+- **Random**: Another standard Python library, `random` is used for generating random numbers. In the context of RSA key generation, it is used to select prime numbers and randomize the key generation process.
+
+    - **Installation**: Like `math`, the `random` library is part of the Python standard library and does not require separate installation.
+
+    - **Documentation**: [Python Random Library Documentation](https://docs.python.org/3/library/random.html)
+
+These libraries are essential for the generation of RSA key pairs, ensuring the security and integrity of the generated keys.
+
+bash
+Copy code
+## Example command to generate keys
+python generate_keys.py
+
+## Example command to encrypt a message
+python encrypt.py --message "Hello, World!"
+
+## Example command to decrypt a message
+python decrypt.py --ciphertext [CIPHERTEXT_HERE]
+
+## Contributing
+Contributions are welcome! Please follow these steps:
+
+* Fork the repository.
+* Create a new branch (git checkout -b feature/your_feature).
+* Make your changes.
+* Commit your changes (git commit -am 'Add some feature').
+* Push to the branch (git push origin feature/your_feature).
+* Create a new Pull Request.
+
+## License
+MIT
+
