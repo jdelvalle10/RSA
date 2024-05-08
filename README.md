@@ -20,15 +20,15 @@ git clone https://github.com/your_username/your_repository.git
 
 The `generate_keys.py` script relies on the following libraries:
 
-- **Python Cryptography**: This library provides cryptographic recipes and primitives to Python developers. It is used for generating secure random numbers and implementing various cryptographic algorithms.
+- **Python Sympy**: This library provides symbolic math recipes and primitives to Python developers. It is used here top perform number theory operations, like finding large prime numbers required for generating secure cryptographic algorithms.
 
-    - **Installation**: You can install Python Cryptography using pip:
+    - **Installation**: You can install Python Sympy using pip:
 
         ```bash
-        pip install cryptography
+        pip install sympy
         ```
 
-    - **Documentation**: [Python Cryptography Documentation](https://cryptography.io/en/latest/)
+    - **Documentation**: https://www.sympy.org/en/index.html
 
 - **Math**: This is a standard Python library used for mathematical operations. It is used in the RSA key generation process for computing modular arithmetic operations such as finding modular inverses and performing modular exponentiation.
 
