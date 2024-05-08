@@ -46,14 +46,11 @@ These libraries are essential for the generation of RSA key pairs, ensuring the 
 
 bash
 Copy code
-## Example command to generate keys
-python generate_keys.py
-
-## Example command to encrypt a message
-python encrypt.py --message "Hello, World!"
-
-## Example command to decrypt a message
-python decrypt.py --ciphertext [CIPHERTEXT_HERE]
+## Usage
+* Start with the generate_keys.py program. This will ask you the size of the prime numbers (in bits) tneeded to generate the key pair. You will see two files generated, one with the public key and other with the private key. 
+* Now create a "message.txt" file containing a message you want to send 
+* Use the Encrypt.py program will use Alice's public key to encrypt it and return another file: "encrypted_message.txt"
+* Use the Decrypt.py program to decrypt the message, this time using Alice's private key. This will return a file with the decrypted message.
 
 ## Contributing
 Contributions are welcome! Please follow these steps:
