@@ -13,7 +13,6 @@ Decryption: Decrypt ciphertext messages using the private key.
 ## Installation
 Clone the repository:
 ```
-Copy code
 git clone https://github.com/jdelvalle10/RSA.git
 ```
 ## Libraries Used
