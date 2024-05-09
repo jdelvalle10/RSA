@@ -2,7 +2,7 @@
 Simple implementation of the RSA Asymmetric Encryption Algorithm
 
 ## RSA Encryption Implementation
-This repository contains an implementation of the RSA encryption algorithm in [language]. RSA (Rivest–Shamir–Adleman) is 
+This repository contains an implementation of the RSA encryption algorithm in Python. RSA (Rivest–Shamir–Adleman) is 
 one of the first public-key cryptosystems and is widely used for secure data transmission.
 
 ## Features
