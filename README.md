@@ -12,10 +12,10 @@ Decryption: Decrypt ciphertext messages using the private key.
 
 ## Installation
 Clone the repository:
-bash
+```
 Copy code
 git clone https://github.com/jdelvalle10/RSA.git
-
+```
 ## Libraries Used
 
 The `generate_keys.py` script relies on the following libraries:
