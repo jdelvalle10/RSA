@@ -14,7 +14,7 @@ Decryption: Decrypt ciphertext messages using the private key.
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/your_username/your_repository.git
+git clone https://github.com/jdelvalle10/RSA.git
 
 ## Libraries Used
 
